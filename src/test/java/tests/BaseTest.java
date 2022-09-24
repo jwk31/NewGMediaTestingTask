@@ -5,11 +5,13 @@ import Helper.HelperMethod;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import pages.IndexPage;
 import utils.Driver;
 
 public class BaseTest {
 
     HelperMethod helper = new HelperMethod();
+    IndexPage indexPage = new IndexPage();
 
     @BeforeClass
     public void Setup() {
